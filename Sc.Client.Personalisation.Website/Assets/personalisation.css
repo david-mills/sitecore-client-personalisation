@@ -1,0 +1,49 @@
+﻿.personalised .personalised-overlay::before {    
+    animation: rotate 1.1s linear infinite;
+    background: linear-gradient(0deg, #eee, #ddd) 0 0%,linear-gradient(90deg, #ddd, #999) 100% 0%,linear-gradient(180deg, #999, #666) 100% 100%,linear-gradient(360deg, #666, #2d2d2d) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -21px;
+    margin-left: -21px;
+    content: '';
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.personalised .personalised-overlay {
+    z-index: 5000;
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: #eee;
+}
+}
+.personalised {    
+    position: relative;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

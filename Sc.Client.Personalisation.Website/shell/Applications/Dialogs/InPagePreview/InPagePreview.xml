@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <InPagePreview>
+    <FormDialog Header="In Page Preview" Text="Select external page to preview component on" OKButton="Apply" CancelButton="Clear In Page Preview" >
+
+      <CodeBeside Type="Asos.Content.LandingPages.Personalisation.Dialogs.InPagePreview,Asos.Content.LandingPages"/>
+
+      <DataContext ID="DataContext" Root="/"/>
+
+      <Scrollbox ID="Conditions" class="scScrollbox scInsetBorder" runat="server"/>
+
+      <TextBox class="scScrollbox scInsetBorder scDescription" ID="Description" runat="server" />
+    </FormDialog>
+  </InPagePreview>
+</control>
+

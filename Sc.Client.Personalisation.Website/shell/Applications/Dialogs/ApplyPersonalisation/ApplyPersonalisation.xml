@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <ApplyPersonalisation>
+    <FormDialog Header="Apply Personalisation Rules" Text="Select personalisation rules to apply to the preview page" OKButton="Apply">
+
+      <CodeBeside Type="Sc.Client.Personalisation.Dialogs.ApplyPersonalisation,Sc.Client.Personalisation"/>
+
+      <DataContext ID="DataContext" Root="/"/>
+
+      <Scrollbox ID="Conditions" class="scScrollbox scInsetBorder" runat="server"/>
+
+      <Scrollbox class="scScrollbox scInsetBorder scDescription" ID="Description" runat="server" />
+    </FormDialog>
+  </ApplyPersonalisation>
+</control>
+

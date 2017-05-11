@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Client.Personalisation", "Sc.Client.Personalisation.csproj", "{F65617A7-226A-40E2-B314-D46EF956A9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Client.Personalisation.Website", "..\Sc.Client.Personalisation.Website\Sc.Client.Personalisation.Website.csproj", "{433894D5-010C-41F0-9574-55A790BC9DF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F65617A7-226A-40E2-B314-D46EF956A9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65617A7-226A-40E2-B314-D46EF956A9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65617A7-226A-40E2-B314-D46EF956A9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65617A7-226A-40E2-B314-D46EF956A9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433894D5-010C-41F0-9574-55A790BC9DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433894D5-010C-41F0-9574-55A790BC9DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433894D5-010C-41F0-9574-55A790BC9DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433894D5-010C-41F0-9574-55A790BC9DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
